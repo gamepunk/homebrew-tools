@@ -5,6 +5,7 @@ class GetIcon < Formula
     desc "快速下载 iOS iPadOS macOS 软件的图标"
     homepage "https://github.com/gamepunk/homebrew-icon"
     head "https://github.com/gamepunk/homebrew-icon.git"
+    version "1.0"
   
     # depends_on "cmake" => :build
   
