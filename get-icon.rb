@@ -11,6 +11,7 @@ class GetIcon < Formula
   
     def install
       bin.install "get-icon"
+      bin.install "appicon"
       # ENV.deparallelize  # if your formula fails when building in parallel
       # Remove unrecognized options if warned by configure
       # system "./configure", "--disable-debug",
